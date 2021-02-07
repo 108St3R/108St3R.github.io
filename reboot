@@ -1,0 +1,162 @@
+		<section class="reviews">
+			<div class="container">
+				<div class="review">
+					<div class="review__text">
+						<h1 class="review__title"> Customers love us </h1>
+						<p class="review__subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+					</div>
+					<div class="review__customers">
+						<div class="review__customer">
+							<p class="review__comment">“It’s well designed, easy to use and <span class="review__comment-underline">very flexible without being bloated.</span>Great value for money.”</p>
+							<div class="review__about">
+								<img class="review__mail" src="img/png/Bootstrap.svg">
+								<h6 class="review__customernick">Paul</h6><br>
+								<div class="review__customerjob">Bootstrap Customer</div>
+							</div>
+						</div>
+						<div class="review__customer">
+							<p class="review__comment">“Very versatile. Seems like <span class="review__comment-underline">you can build most of the stuff out of the box.</span>Very thoughtful; team must be very experienced in customer stories and their pain points.”</p>
+							<div class="review__about">
+								<img class="review__mail" src="img/png/Bootstrap.svg">
+								<h6 class="review__customernick">rajasekhar reddy</h6><br>
+								<div class="review__customerjob">Bootstrap Customer</div>
+							</div>
+						</div>
+						<div class="review__customer">
+							<p class="review__comment">“This is a superb product with very<span class="review__comment-underline">nice designs and clean code.</span> Using it is a breeze. 5-star product. Also, there's updates.”</p>
+							<div class="review__about">
+								<img class="review__mail" src="img/png/envato.svg">
+								<h6 class="review__customernick">agneesh</h6><br>
+								<div class="review__customerjob">Themeforest Customer</div>
+							</div>
+						</div>
+						<div class="review__customer">
+							<p class="review__comment">“I like the plethora of interchangeable blocks and individual elements. This is a great and flexible bundle. And for the price, totally worth it. Also a <span class="review__comment-underline">big shoutout to Craig and James for their quick and helpful support.</span>”</p>
+							<div class="review__about">
+								<img class="review__mail" src="img/png/envato.svg">
+								<h6 class="review__customernick">garyhorsman</h6><br>
+								<div class="review__customerjob">Themeforest Customer</div>
+							</div>
+						</div>
+							<div class="review__customer">
+							<p class="review__comment">“It's <span class="review__comment-underline">the best theme I've ever purchased.</span>Excellent and easy code, excellent design.”</p>
+							<div class="review__about">
+								<img class="review__mail" src="img/png/envato.svg">
+								<h6 class="review__customernick">felipelobo328</h6><br>
+								<div class="review__customerjob">Themeforest Customer</div>
+							</div>
+						</div>
+						<div class="review__customer">
+							<p class="review__comment">“The <span class="review__comment-underline">code is very well organizedand </span>as a front-end developer, for me it's essential”</p>
+							<div class="review__about">
+								<img class="review__mail" src="img/png/envato.svg">
+								<h6 class="review__customernick">theus</h6><br>
+								<div class="review__customerjob">Themeforest Customer</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+</section>
+
+
+.reviews{
+  background-color: #009B72;
+  padding: 120px;
+}
+
+.review{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  color: #2c3038;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.review__title{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  width: 100%;
+  margin:50px auto;
+  line-height: 55px;
+  color: #fff;
+}
+
+.review__subtitle{
+  position: relative;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 48px;
+  width: 60%;
+  color: #fff;
+}
+
+.review__customers{
+  display: grid;
+  grid-template-columns: repeat(3, 41%);
+  grid-column-gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px;
+  background-color: #009B72;
+
+}
+
+.review__customer{
+  background-color: #fff;
+  border-radius: 7px;
+  width: 100%;
+  height: min-content;
+  margin-top: 20px;
+}
+
+
+.review__comment{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #2c3038;
+  padding: 30px;
+  text-align: left;
+  line-height: 1.5;
+  color: #555A64;
+}
+
+.review__comment-underline{
+  background-size: 100% .3em ;
+  background-image: linear-gradient(120deg,rgba(255,193,7,.4) 0,rgba(255,193,7,.4) 100%);
+  background-repeat: no-repeat;
+  background-position: 0 80%;
+  position: relative;
+}  
+
+
+.review__mail{
+  float: left;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 1em;
+
+}
+
+.review__customernick{
+  font-size: 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  color: #2c3038;
+  text-align: left;
+}
+
+.review__customerjob{
+  font-size: 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  color: #555a64;
+  text-align: left;
+}
+
+

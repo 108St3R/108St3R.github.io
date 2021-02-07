@@ -1,0 +1,159 @@
+.reviews{
+  background-color: #009B72;
+  padding: 120px 0px;
+}
+@media (max-width: 992px){
+  .reviews{
+    padding: 50px 0px;
+  }
+}
+
+.review{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  color: #2c3038;
+  text-align: center;
+}
+
+.review__title{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin:50px auto;
+  line-height: 55px;
+  color: #fff;
+}
+@media (max-width: 992px){
+  .review__title{
+    font-size: 3rem;
+    line-height: 35px;
+
+  }
+}
+@media (max-width: 560px){
+  .review__title{
+    font-size: calc(1.2rem + 3.9vw);
+    line-height: 35px;
+
+  }
+}
+
+.review__subtitle{
+  display: inline;
+  text-align: center;
+  position: relative;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  height: 48px;
+  color: #fff;
+}
+@media (max-width: 992px){
+  .review__subtitle{
+    display: inline;
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 560px){
+  .review__subtitle{
+    display: inline;
+    font-size: calc(5px + 2.5vw);
+  }
+}
+
+.review__customers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #009B72;
+}
+
+.review__customer{
+  background-color: #fff;
+  width: 600px;
+  height: 250px;
+}
+
+@media (max-width: 767px){
+  .review__customer{
+    width: 400px;
+    height: 250px;
+  }
+}
+@media (max-width: 560px){
+  .review__customer{
+    width: 280px;
+    height: 230px;
+  }
+}
+
+.review__comment{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #2c3038;
+  padding: 30px;
+  text-align: left;
+  line-height: 1.5;
+  color: #555A64;
+}
+@media (max-width: 560px){
+  .review__comment{
+    font-size: 0.8rem;
+    padding: 25px;
+  }
+}
+
+.review__comment-underline{
+  background-size: 100% .3em ;
+  background-image: linear-gradient(120deg,rgba(255,193,7,.4) 0,rgba(255,193,7,.4) 100%);
+  background-repeat: no-repeat;
+  background-position: 0 80%;
+  position: relative;
+}  
+
+
+.review__mail{
+  float: left;
+  margin-bottom: 25px;
+  margin-left: 2em;
+  margin-right: 1em;
+}
+@media (max-width: 560px){
+  .review__mail{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-left: 1.5em;
+    margin-right: 0.5em;
+  }
+}
+
+.review__customernick{
+  font-size: 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  color: #2c3038;
+  text-align: left;
+}
+@media (max-width: 560px){
+  .review__customernick{
+    font-size: 0.8rem;
+  }
+}
+
+.review__customerjob{
+  font-size: 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  color: #555a64;
+  text-align: left;
+}
+@media (max-width: 560px){
+  .review__customerjob{
+    font-size: 0.8rem;
+    bottom: -5px;
+  }
+}
+
+

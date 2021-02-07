@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jumpstart 1</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale = 1.0 , user-scalable = 0" >
+
+		<link href="css/all.css" rel="stylesheet" type="text/css">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+				<!-- Biblio -->
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+		
+	<body>
+
+		<header class="header">
+				<div class="wrapper"></div>
+				<div class="container">
+					<div class="header_wrapper">
+						<a class="header__logo" href="">  Jumpstart </a>
+
+						<div class="navbar">
+							<div class="navbar__dropdown">
+							  <button id="demos" class="navbar__dropbtn">Demos  <i class=" navbar__icon fas fa-sort-down"></i></button>
+							  <div id="demos" class="navbar__dropcontent">
+							    <a href="#">Overview</a>
+							    <a href="#">Landing 1</a>
+							    <a href="#">Landing 2</a>
+							    <a href="#">Landing 3</a>
+							    <a href="#">Landing 4</a>
+							    <a href="#">Landing 5</a>
+							    <a href="#">Landing 6</a>
+							  </div>
+							</div>
+							<div class="navbar__dropdown">
+							  <button  id="pages"class="navbar__dropbtn">Pages   <i class=" navbar__icon fas fa-sort-down"></i></button>
+							  <div id="pages" class="navbar__dropcontent">
+							    <a href="#"> Company      <i class=" navbar__icon-2 fas fa-caret-right"></i></a>
+							    <a href="#"> Blog         <i class=" navbar__icon-2 fas fa-caret-right"></i></a>
+							    <a href="#"> Help Center  <i class=" navbar__icon-2 fas fa-caret-right"></i></a>
+							    <a href="#"> Careers      <i class=" navbar__icon-2 fas fa-caret-right"></i></a>
+							    <a href="#"> Case Studies <i class=" navbar__icon-2 fas fa-caret-right"></i></a>
+							    <a href="#"> Pricing      <i class=" navbar__icon-2 fas fa-caret-right"></i></a>
+							    <a href="#"> Contact      <i class=" navbar__icon-2 fas fa-caret-right"></i></a>
+							    <a href="#"> Account      <i class=" navbar__icon-2 fas fa-caret-right"></i></a>
+							    <a href="#"> Utility      <i class=" navbar__icon-2 fas fa-caret-right"></i></a>
+							  </div>
+							</div>
+							<div class="navbar__dropdown">
+							  <button  id="features" class="navbar__dropbtn">Features<i class=" navbar__icon fas fa-sort-down"></i></button>
+							  <div id="features" class="navbar__dropcontent">
+							    <a href="#"> Style Guide     </a>
+							    <a href="#"> Plugins         </a>
+							    <a href="#"> Navigation Bars </a>
+							  </div>
+							</div>
+							<div class="navbar__dropdown">
+							  <button id="support" class="navbar__dropbtn">Support <i class=" navbar__icon fas fa-sort-down"></i></button>
+							  <div id="support" class="navbar__dropcontent">
+							    <a href="#"> Documentation </a>
+							    <a href="#"> Changelog     </a>
+							    <a href="#"> Get Help      </a>
+							  </div>
+							</div>
+						</div>
+						<div class="header__btn">
+							<button class="header__button"> Buy Jumpstart</button>
+						</div>
+						<div class="burger"></div>
+				    </div>	
+				</div>	
+		</header>
+	
+	
+		<div id="id01" class="modal">
+			<span class="close" >X</span>
+			<form class="modal__content " >
+				
+				<div class="contain">
+					<label><b>Email</b></label><br>
+					<input type="text" placeholder="Enter Email" name="email" required><br>
+					
+					<label><b>Password</b></label><br>
+					<input type="password" placeholder="Enter Password" name="psw" required><br>
+					
+					<label><b>Repeat Password</b></label><br>
+					<input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+
+					<div class="clearfix">
+						<button type="button" class=" modal_btn block__btn cancel">Cancel</button>
+						<button type="submit" class=" modal_btn block__btn">Sign Up</button>
+                	</div>
+
+            	</div>
+       		</form>
+    	</div>
+	   	
+		<section class="main">
+			<!-- <div class="container"> -->
+				<div class="main__wrapper">
+					<div class="main__text ">
+						<h1 class="main__title animated fadeInUp">A modular UI Kit for <br><span id="typing"></span></h1>
+						<p class="main__subtitle animated fadeInUp">Launch your site in style with Jumpstart, a tidy collection of crafted <br> pages and modular components.</p>
+						<button class="btn main__btn animated fadeInLeft ">View Demos</button>
+						<button class="btn main__btn animated fadeInRight main__btn-white">Purchase</button>
+					</div>
+				</div>
+			<!-- </div> -->
+		</section>
+
+		<section class="content">
+			<div class="container">
+				<div class="block">
+					<div class="block__part animated rotateInDownLeft">
+						<img class="block__img" src="img/widget/content1.png">
+						<div class="block__content">
+							<h1 class="block__title ">A modular UI kit</h1>
+							<p class="block__subtitle ">Create rich layouts, using any combination of elements. Jumpstart’s UI elements are designed to play nice together, wherever you place them.</p>
+							<button class="block__btn">View Style Guide</button>
+						</div>
+					</div>
+					<div class="block__part animated rotateInDownRight">
+						<img class="block__img"src="img/widget/content2.png">
+						<div class="block__content">
+							<h1 class="block__title">Handy plugins</h1>
+							<p class="block__subtitle">Enhance the functionality of your site with Jumpstart's convenient suite of easily configurable javascript plugins.</p>
+							<button class="block__btn">View Plugins</button>	
+						</div>
+					</div>
+					<div class="block__part animated rotateInUpLeft">
+						<img class="block__img" src="img/widget/content3.png">
+						<div class="block__content">
+							<h1 class="block__title">Speedy build tools</h1>
+							<p class="block__subtitle">Get your site off the ground quicker with Livereload and SCSS compling using our simple Gulp-powered build process.</p>
+							<button class="block__btn">View Documentation</button>	
+						</div>	
+					</div>
+					<div class="block__part animated rotateInUpRight">
+						<img class="block__img" src="img/widget/content4.png">
+						<div class="block__content">
+							<h1 class="block__title">Friendly support</h1>
+							<p class="block__subtitle">We work closely with customers to provide a high-standard of support, prompt bug fixes and general troubleshooting.</p>
+							<button class="block__btn">Open a Suport Ticket</button>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+
+		<section class="landing">
+			<div class="container">
+				<div class="banner">
+					<h1 class="banner__text"> Landing Pages</h1>
+				</div>
+
+				<div class="tab">
+					<button class="tabs" onclick="openPage(event, 'landing1')">Landing 1</button>
+					<button class="tabs" onclick="openPage(event, 'landing2')">Landing 2</button>
+					<button class="tabs" onclick="openPage(event, 'landing3')">Landing 3</button>
+					<button class="tabs" onclick="openPage(event, 'landing4')">Landing 4</button>
+					<button class="tabs" onclick="openPage(event, 'landing5')">Landing 5</button>
+					<button class="tabs" onclick="openPage(event, 'landing6')">Landing 6</button>
+				</div>
+
+				<div class=" landing__components">
+					<div id="landing1" class="common__component landing__component showed">
+						<img class="common__img landing__img animated fadeInUp" src="img/png/landing-1.png">
+						<h1 class="common__text landing__text"> Landing 1</h1>
+					</div>
+					<div id="landing2" class="common__component landing__component">
+						<img class="common__img landing__img animated fadeInUp" src="img/png/landing-2.png">
+						<h1 class="common__text landing__text">Landing 2</h1>
+					</div>
+					<div id="landing3" class="common__component landing__component">
+						<img class="common__img landing__img animated fadeInUp" src="img/png/landing-3.png">
+						<h1 class="common__text landing__text">Landing 3</h1>
+					</div>
+					<div id="landing4" class="common__component landing__component">
+						<img class="common__img landing__img animated fadeInUp" src="img/png/landing-4.png">
+						<h1 class="common__text landing__text">Landing 4</h1>
+					</div>
+					<div id="landing5" class="common__component landing__component">
+						<img class="common__img landing__img animated fadeInUp" src="img/png/landing-5.png">
+						<h1 class="common__text landing__text">Landing 5</h1>
+					</div>
+					<div id="landing6" class="common__component landing__component">
+						<img class="common__img landing__img animated fadeInUp" src="img/png/landing-6.png">
+						<h1 class="common__text landing__text">Landing 6</h1>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+
+		<section class="heading company">
+			<div class="container">
+				<div class="banner">
+					<h1 class="banner__text"> Company</h1>
+				</div>
+				<div class="common__components company__components">
+					<div class="common__component company__component">
+						<img class="common__img company__img" src="img/png/company-about-1.png">
+						<h1 class="common__text company__text"> About 1</h1>
+					</div>
+					<div class="common__component company__component">
+						<img class="common__img company__img" src="img/png/company-about-2.png">
+						<h1 class="common__text company__text"> About 2</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="heading blog">
+			<div class="container">
+				<div class="banner">
+					<h1 class="banner__text"> Blog</h1>
+				</div>
+				<div class="common__components blog__components">
+					<div class="common__component blog__component">
+						<img class="common__img blog__img" src="img/png/blog-listing-1.png">
+						<h1 class="common__text blog__text"> Blog Listing 1</h1>
+					</div>
+					<div class="common__component blog__component">
+						<img class="common__img blog__img" src="img/png/blog-listing-2.png">
+						<h1 class="common__text blog_text"> Blog Listing 2</h1>
+					</div>
+					<div class="common__component blog__component">
+						<img class="common__img blog__img" src="img/png/blog-listing-3.png">
+						<h1 class="common__text blog_text"> Blog Listing 3</h1>
+					</div>
+					<div class="common__component blog__component">
+						<img class="common__img blog__img" src="img/png/blog-article.png">
+						<h1 class="common__text blog_text"> Blog Article</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="heading help-center">
+			<div class="container">
+				<div class="banner">
+					<h1 class="banner__text"> Help Center</h1>
+				</div>
+				<div class="common__components">
+					<div class="common__component">
+						<img class="common__img" src="img/png/help-center-home.png">
+						<h1 class="common__text"> Help Center Home</h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/help-center-category.png">
+						<h1 class="common__text"> Help Center Category </h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/help-center-article.png">
+						<h1 class="common__text"> Help Center Article</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="heading careers">
+			<div class="container">
+				<div class="banner">
+					<h1 class="banner__text cursor-text"> Careers</h1>
+				</div>
+				<div class="common__components">
+					<div class="common__component">
+						<img class="common__img" src="img/png/careers-1.png">
+						<h1 class="common__text"> Careers 1</h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/careers-2.png">
+						<h1 class="common__text"> Careers 2 </h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/career-single.png">
+						<h1 class="common__text"> Careers Single</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="heading case-studies">
+			<div class="container">
+				<div class="banner">
+					<h1 class="banner__text cursor-text"> Case Studies</h1>
+				</div>
+				<div class="common__components">
+					<div class="common__component">
+						<img class="common__img" src="img/png/case-studies.png">
+						<h1 class="common__text"> Case Studie</h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/case-study-single.png">
+						<h1 class="common__text"> Case-Study-Single </h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="heading pricing">
+			<div class="container">
+				<div class="banner">
+					<h1 class="banner__text cursor-text"> Pricing</h1>
+				</div>
+				<div class="common__components">
+					<div class="common__component">
+						<img class="common__img" src="img/png/pricing-plans.png">
+						<h1 class="common__text">Pricing Plans</h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/pricing-table.png">
+						<h1 class="common__text">Pricing Table </h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="heading contact">
+			<div class="container">
+				<div class="banner">
+					<h1 class="banner__text cursor-text"> Contact</h1>
+				</div>
+				<div class="common__components">
+					<div class="common__component">
+						<img class="common__img" src="img/png/contact.png">
+						<h1 class="common__text"> Contact</h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/contact-map.png">
+						<h1 class="common__text"> Contact Map </h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/contact-planner.png">
+						<h1 class="common__text"> Contact Planner </h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="heading account">
+			<div class="container">
+				<div class="banner">
+					<h1 class="banner__text cursor-text"> Account</h1>
+				</div>
+				<div class="common__components">
+					<div class="common__component">
+						<img class="common__img" src="img/png/Account-settings.png">
+						<h1 class="common__text"> Account Settings</h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/account-invoice.png">
+						<h1 class="common__text"> Invoice</h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/account-sign-up-cover.png">
+						<h1 class="common__text"> Sign Up - Cover </h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/account-sign-in-cover.png">
+						<h1 class="common__text"> Sign In - Cover </h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/account-sign-up-simple.png">
+						<h1 class="common__text"> Sign Up - Simple </h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/account-sign-in-simple.png">
+						<h1 class="common__text"> Sign In - Simple </h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/account-forgot-password.png">
+						<h1 class="common__text"> Forgot Password </h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="heading utility">
+			<div class="container">
+				<div class="banner">
+					<h1 class="banner__text cursor-text"> Utility</h1>
+				</div>
+				<div class="common__components">
+					<div class="common__component">
+						<img class="common__img" src="img/png/Utility-coming-soon-subscribe.png">
+						<h1 class="common__text"> Coming Soon Subscribe</h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/Utility-coming-soon-countdown.png">
+						<h1 class="common__text"> Coming Soon Countdown</h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/Utility-coming-soon-social.png">
+						<h1 class="common__text"> Coming Soon Social </h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/Utility-legal-terms.png">
+						<h1 class="common__text"> Legal Terms </h1>
+					</div>
+					<div class="common__component">
+						<img class="common__img" src="img/png/404.png">
+						<h1 class="common__text"> 404 </h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="reviews">
+			<div class="container">
+				<div class="review">
+					<div class="review__text">
+						<h1 class="review__title"> Customers love us </h1>
+						<p class="review__subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br>accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+					</div>
+					<div class="review__customers">
+						
+						<div class="slider">
+
+							<div class="slider_window">
+			
+								<div id="slider_wrapper" class="slider_wrapper">
+									
+									<div class="review__customer">
+										<p class="review__comment">“It’s well designed, easy to use and <span class="review__comment-underline">very flexible without being bloated.</span>Great value for money.”</p>
+										<div class="review__about">
+											<img class="review__mail" src="img/png/Bootstrap.svg">
+											<h6 class="review__customernick">Paul</h6><br>
+											<div class="review__customerjob">Bootstrap Customer</div>
+										</div>
+									</div>
+
+									<div class="review__customer">
+										<p class="review__comment">“Very versatile. Seems like <span class="review__comment-underline">you can build most of the stuff out of the box.</span>Very thoughtful; team must be very experienced in customer stories and their pain points.”</p>
+										<div class="review__about">
+											<img class="review__mail" src="img/png/Bootstrap.svg">
+											<h6 class="review__customernick">rajasekhar reddy</h6><br>
+											<div class="review__customerjob">Bootstrap Customer</div>
+										</div>
+									</div>
+
+									<div class="review__customer">
+										<p class="review__comment">“This is a superb product with very<span class="review__comment-underline">nice designs and clean code.</span> Using it is a breeze. 5-star product. Also, there's updates.”</p>
+										<div class="review__about">
+											<img class="review__mail" src="img/png/envato.svg">
+											<h6 class="review__customernick">agneesh</h6><br>
+											<div class="review__customerjob">Themeforest Customer</div>
+										</div>
+									</div>
+
+									<div class="review__customer">
+										<p class="review__comment">“I like the plethora of interchangeable blocks and individual elements. This is a great and flexible bundle. And for the price, totally worth it. Also a <span class="review__comment-underline">big shoutout to Craig and James for their quick and helpful support.</span>”</p>
+										<div class="review__about">
+											<img class="review__mail" src="img/png/envato.svg">
+											<h6 class="review__customernick">garyhorsman</h6><br>
+											<div class="review__customerjob">Themeforest Customer</div>
+										</div>
+									</div>
+
+										<div class="review__customer">
+										<p class="review__comment">“It's <span class="review__comment-underline">the best theme I've ever purchased.</span>Excellent and easy code, excellent design.”</p>
+										<div class="review__about">
+											<img class="review__mail" src="img/png/envato.svg">
+											<h6 class="review__customernick">felipelobo328</h6><br>
+											<div class="review__customerjob">Themeforest Customer</div>
+										</div>
+									</div>
+
+									<div class="review__customer">
+										<p class="review__comment">“The <span class="review__comment-underline">code is very well organizedand </span>as a front-end developer, for me it's essential”</p>
+										<div class="review__about">
+											<img class="review__mail" src="img/png/envato.svg">
+											<h6 class="review__customernick">theus</h6><br>
+											<div class="review__customerjob">Themeforest Customer</div>
+										</div>
+									</div>
+									
+								</div>	
+			
+							</div>
+							
+							<img src="img/png/left-arrow.png" class="slider_button slider_left" onclick="move_slider(event)" data-slide1= "600" data-slide2= "400" data-slide3= "280">
+							<img src="img/png/right-arrow.png" class="slider_button slider_rigth" onclick="move_slider(event)" data-slide1 = "-600" data-slide2= "-400" data-slide3= "-280">
+
+						</div>
+
+					</div>	
+				</div>
+			</div>
+		</section>
+
+		<section class="tail">
+			<div class="container">
+				<div class="tail__wrapper">
+					<div class="tail__text">
+						<h1 class="tail__title"> Jumpstart your launch <br><span id="typing"></span></h1>
+						<p class="tail__subtitle ">Save hours on design and development and launch faster.</p>
+						<button class="btn tail__btn "> Buy Jumpstart</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<a class="back_to_top animated flip" title="Up"><img id="up" src="img/svg/arrow2-up.svg"></a>
+
+
+		<footer class="footer">
+			<div class="container">
+				<div class="topfooter">
+					<div class="topfooter__demos line">
+							<h5 class="topfooter__head">Demos</h5>
+							<div id="demos" class="add"></div>
+							<div id="demos" class="show">
+								<li><a class="topfooter__link" href=""> Landing1</a></li>
+								<li><a class="topfooter__link" href=""> Landing2</a></li>
+								<li><a class="topfooter__link" href=""> Landing3</a></li>
+								<li><a class="topfooter__link" href=""> Landing4</a></li>
+								<li><a class="topfooter__link" href=""> Landing5</a></li>
+								<li><a class="topfooter__link" href=""> Landing6</a></li>
+							</div>
+					</div>
+					<div class="topfooter__pages line">
+						<h5 class="topfooter__head"> Pages</h5>
+						<div id="pages" class="add"></div>
+						<div id="pages" class="show">
+							<li><a class="topfooter__link" href=""> Company      </a></li>
+							<li><a class="topfooter__link" href=""> Blog         </a></li>
+							<li><a class="topfooter__link" href=""> Help Center  </a></li>
+							<li><a class="topfooter__link" href=""> Careers      </a></li>
+							<li><a class="topfooter__link" href=""> Case Studies </a></li>
+							<li><a class="topfooter__link" href=""> Pricing      </a></li>
+						</div>
+					</div>
+					<div class="topfooter__articles line">
+						<h5 class="topfooter__head">Articles</h5>
+						<div id="articles" class="add"></div>
+						<div id="articles" class="show">
+							<ul>
+								<li class="topfooter__article">
+									<div class="topfooter__content">
+										<img class="topfooter__img" src="img/png/thumb-2.jpg">
+										<div class="topfooter__underimgtext">
+											<a class="topfooter__text" href="">Unveiling our new vision for Jumpstart</a>
+											<div class="topfooter__data">October 10th</div>
+										</div>
+									</div>
+								</li>
+								<li class="topfooter__article">
+									<div class="topfooter__content">
+										<img class="topfooter__img" src="img/png/thumb-1.jpg">
+										<div class="topfooter__underimgtext">
+											<a class="topfooter__text" href="">Making the most of team-building sessions</a>
+											<div class="topfooter__data">October 2nd</div>
+										</div>
+									</div>
+								</li>
+							</ul>							
+						</div>
+					</div>
+					<div class="topfooter__newsletters line">
+						<h5 class="topfooter__head">Newsletter</h5>
+						<div id="newsletter" class="add"></div>
+						<div id="newsletter" class="show">
+							<div class="topfooter__newsletter ">
+								<p class="topfooter__heading">Get a bi-weekly digest of great articles</p>
+								<form class="topfooter__newsletters-form">
+									<div class="topfooter__container">
+										<input class="topfooter__input" type="email" name="email" placeholder="Email Address">
+										<button class="topfooter__button" > Go</button>
+									</div>
+									<div class="topfooter__data">We'll never share your email address</div>
+								</form>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<hr>
+				<div class="bottomfooter">
+					<div class="bottomfooter__protection">
+						<h1 class="bottomfooter__text">© 2019 Page protected by reCAPTCHA and subject to Google's 
+							<span class="bottomfooter__text-bright">Privacy Policy</span> and 
+							<span class="bottomfooter__text-bright">Terms of Service</span>
+						</h1>
+					</div>
+					<div class="bottomfooter__socialnetwork">
+						<img src="img/widget/s-n.png">
+					</div>
+				</div>
+			</div>	
+		</footer>
+
+		<!-- JS -->
+
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/modal.js"></script>
+		<script type="text/javascript" src="js/slider.js"></script>
+		<script type="text/javascript" src="js/tabs.js"></script>
+		<script type="text/javascript" src="js/header.js"></script>
+		<script type="text/javascript" src="js/backToTop.js"></script>
+		<script type="text/javascript" src="js/accord.js"></script>
+		
+
+	</body>
+</html>

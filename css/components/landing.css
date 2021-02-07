@@ -1,0 +1,115 @@
+.landing{
+	background-color: white;
+	padding: 120px 0px;
+}
+@media (max-width: 767px){
+   .landing{
+      padding: 80px 0px;
+   }
+}
+
+.landing__components{
+	padding: 100px;
+	background-color: #eaedf2;
+}
+
+@media (max-width: 1200px){
+  .landing__components  {
+      padding: 75px;
+   }
+}
+@media (max-width: 992px){
+   .landing__components  {
+      padding: 50px;
+   }
+}
+@media (max-width: 767px){
+   .landing__components  {
+      padding: 25px;
+   }
+}
+
+.landing__component {
+   display: none;
+   padding: 3px 12px;
+}
+
+.showed{
+	display: block;
+}
+
+.landing__text{
+	text-align: center;
+	font-size: 25px;
+}
+
+@media (max-width: 992px){
+   .landing__text {
+      font-size: 18px;
+   }
+}
+@media (max-width: 767px){
+   .landing__text {
+      font-size: 16px;
+   }
+}
+
+
+   
+/*tab styling*/
+
+.tab {
+	position: relative;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600; 
+	display: flex;
+	justify-content: space-around;
+   overflow: hidden;
+   background-color: #009b72;
+}
+
+.tab button {
+   color: #f2f2f2;
+	position: relative;
+	z-index: 5;
+   cursor: pointer;
+   padding: 7px 9px;
+   font-size: 23px;
+   background-color: inherit;
+   border: none;
+}
+@media (max-width: 992px){
+   .tab button {
+      font-size: 18px;
+   }
+}
+@media (max-width: 767px){
+   .tab button {
+      font-size: 15px;
+   }
+}
+@media (max-width: 560px){
+   .tab button {
+      font-size: calc(0.2rem + 1.5vw);
+   }
+}
+
+
+
+.tab button:hover {
+   color: black;
+   background-color: #eaedf2;
+   border-radius: 7px;
+   border-top: 3px solid black;
+   border-left: 3px solid black;
+   border-right: 3px solid black;
+   bottom: -4px;
+   transition: bottom 1s;
+}
+
+.tab button.active {
+   background-color: #eaedf2;
+   border: none;
+   color: black;
+}
+

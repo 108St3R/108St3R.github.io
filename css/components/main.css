@@ -1,0 +1,124 @@
+.main{
+    padding: 120px 0px;
+    background-image: url('../../img/png/bg-main.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 767px){
+  .main{
+    padding: 50px 0px;
+  }
+}
+
+.main__wrapper{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  color: #2c3038;
+  text-align: center;
+  margin-top: 90px; 
+  margin-bottom: 40px;
+  }
+
+
+.main__text {
+  text-align: center;
+}
+
+.main__title {
+  display: inline;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 55px;
+  color: #2c3038;
+  margin-bottom: 24px; 
+}
+@media (max-width: 1200px){
+  .main__title {
+    font-size: calc(1.575rem + 3.9vw);
+}
+}
+
+.main__subtitle{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  height: 48px;
+  color: #555A64;
+  margin-bottom: 24px;  
+  padding: 48px;
+  line-height: 30px;
+}
+@media (max-width: 1200px){
+  .main__subtitle {
+    font-size: calc(0.3rem + 1.5vw);
+  }
+}
+@media (max-width: 560px){
+  .main__subtitle {
+    font-size: calc(0.5rem + 1.5vw);
+  }
+}
+/* cursor */ 
+
+#typing {
+  font-family: 'Nunito', sans-serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  text-decoration: underline yellow;
+}
+@media (max-width: 1200px){
+  #typing {
+    font-size: calc(1.575rem + 3.9vw);
+}
+}
+
+.typed-cursor{
+    opacity: 1;
+    font-weight: 200;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.animated {
+  -webkit-animation-duration: 0.8s;
+  -o-animation-duration: 0.8s;
+  -moz-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  
+  -webkit-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.main__btn {
+  margin:0px, 8px;
+  padding: 10px, 24px;
+  margin-bottom: 40px;
+}
+@media (max-width: 992px){
+  .main__btn{
+    font-size: calc(0.3rem + 1.5vw); 
+  }
+}
+
+.main__btn-white{
+  color: #009B72;
+  background-color: #FFF;
+  border-radius: 2px solid rgba(0,155,114,.25);
+
+}
+
+.main__btn-white:hover{
+  color: #009B72;  
+  background-color: rgba(0,155,114,.25);
+  border-radius: 1px solid;
+
+}

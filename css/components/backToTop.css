@@ -1,0 +1,31 @@
+.back_to_top {
+  bottom: 80px;
+  right: 40px;
+  position: fixed;
+  z-index: 9999;
+  padding: 7px 4px 0px 4px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 25px;
+  background-color: #009b72;
+  color: white;
+  cursor: pointer;
+  border-radius: 40px;
+  display: none;
+}
+
+.back_to_top:hover{
+	background-color: #008a72;
+  border: 1px solid black;
+}
+
+.back_to_top-show{
+	display: block;
+}
+
+#up{
+  width: 37px;
+  height: 37px;
+  color: white;
+}

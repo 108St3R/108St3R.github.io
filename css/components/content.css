@@ -1,0 +1,121 @@
+.content{
+	background-color: #192D35;
+}
+
+.block{
+	display: grid;
+	grid-template-columns: repeat(2, auto); 
+	grid-auto-rows: minmax(300px, max-content);
+	justify-content: space-between;
+	align-content: start;
+	flex-wrap: wrap;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 500;
+	background-color: #192D35;
+	text-align: left;
+	padding: 120px 0px;
+
+}
+@media (max-width: 992px){
+	.block{
+		grid-template-columns: 1fr;	
+		grid-auto-rows: minmax(250px, max-content);
+		padding: 90px 0px;
+	}
+}
+@media (max-width: 767px){
+	.container{
+		grid-auto-rows: minmax(200px, max-content);
+		padding: 0px;
+	}
+}
+
+
+.block__img{
+	float: left;
+}
+
+.block__content{
+	float: left;
+}
+
+.animated {
+  -webkit-animation-duration: 0.8s;
+  -o-animation-duration: 0.8s;
+  -moz-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  
+  -webkit-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.block__part{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	width: auto;
+	height: auto;
+	background-color: #ffffff0d;
+	padding: 36px;
+	margin: 10px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	border-radius: 15px;
+	color: white;
+}
+@media (max-width: 992px){
+	.block__part{
+		padding: 10px;
+		margin: 7px;	
+	}
+}
+
+.block__title{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: 1.25rem;
+	margin: 24px;
+}
+@media (max-width: 767px){
+	.block__title{
+		font-size: 1rem;
+	}
+}
+
+.block__subtitle{
+	/*display: inline;*/
+	font-size: 1rem;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	margin:25px;
+	line-height: 1.5;
+}
+@media (max-width: 767px){
+	.block__subtitle{
+		font-size: .8rem;
+	}
+}
+
+
+.block__btn{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: .875rem;
+	width: auto;
+	height: 36px;
+	color: #FFF;
+	background-color: #009B72;
+	padding-left:  16px;
+	padding-right: 16px;
+	margin-left: 1em;
+	border: 1px solid transparent;
+	border-radius: 25px;
+}
+
+.block__btn:hover{
+	cursor: pointer;
+	background-color: #0e6b4d;
+}
