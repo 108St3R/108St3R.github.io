@@ -155,7 +155,7 @@ body{
 .common__img{
 	position: relative;
 	width: 100%;
-	height: auto;
+	height: width*2/3;
 	border-radius: .3125rem!important;
 }
 
