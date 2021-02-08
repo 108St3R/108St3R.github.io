@@ -147,16 +147,16 @@ body{
 
 
 .common__component{
-	display: flex;
-	flex-wrap: wrap;
+	display: block;
+/* 	flex-wrap: wrap; */
 /* 	height: max-content; */
 }
 
 .common__img{
 	position: relative;
-/* 	display: block; */
+	display: block;
 	width: 100%;
-/* 	height: auto; */
+	height: auto;
 	border-radius: .3125rem!important;
 }
 
