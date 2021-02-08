@@ -166,7 +166,10 @@ body{
     box-shadow: 0 14px 28px rgba(0,0,0,0.18), 0 10px 10px rgba(0,0,0,0.15);
 }
 
-
+company__component{
+	display: none;
+  	padding: 3px 12px;
+}
 
 .common__text{
 	font-family: 'Nunito', sans-serif;
