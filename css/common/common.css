@@ -155,7 +155,7 @@ body{
 .common__img{
 	position: relative;
 	width: 100%;
-	height: width/2;
+	height: auto;
 	border-radius: .3125rem!important;
 }
 
@@ -163,6 +163,12 @@ body{
 	cursor: pointer;
 	top: -3px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.18), 0 10px 10px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 560px){
+	.common__img{
+		height: 50%;	
+	}
 }
 
 
