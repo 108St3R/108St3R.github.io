@@ -154,16 +154,16 @@ body{
 
 .common__img{
 	position: relative;
-	display: block;
+/* 	display: block; */
 	width: 100%;
-	height: auto;
+/* 	height: auto; */
 	border-radius: .3125rem!important;
 }
 
 .common__img:hover{
 	cursor: pointer;
 	top: -3px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.18), 0 10px 10px rgba(0,0,0,0.15);
+    	box-shadow: 0 14px 28px rgba(0,0,0,0.18), 0 10px 10px rgba(0,0,0,0.15);
 }
 
 .common__text{
